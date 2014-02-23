@@ -1,0 +1,21 @@
+{
+  "name": "myurasov/mym-gearman-tools",
+  "description": "Gearman Tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikhail Yurasov",
+      "email": "me@yurasov.me"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "psr/log": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "mym\\GearmanTools": "src/",
+      "mym": "../../mym-dev/src"
+    }
+  }
+}

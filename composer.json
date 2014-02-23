@@ -10,12 +10,14 @@
   ],
   "minimum-stability": "stable",
   "require": {
+
+    "myurasov/mym-dev": "dev-master",
+
     "psr/log": "~1.0"
   },
   "autoload": {
     "psr-0": {
-      "mym\\GearmanTools": "src/",
-      "mym": "../../mym-dev/src"
+      "mym\\GearmanTools": "src/"
     }
   }
 }

@@ -8,12 +8,13 @@
       "email": "me@yurasov.me"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
 
-    "myurasov/mym-dev": "dev-master",
+    "psr/log": "~1.0",
 
-    "psr/log": "~1.0"
+    "php": "~5.4",
+    "ext-gearman": "*"
   },
   "autoload": {
     "psr-0": {
